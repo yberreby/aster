@@ -1,8 +1,3 @@
-#![feature(rustc_private)]
-
-extern crate aster_syntax as aster;
-extern crate syntax;
-
 mod test_attr;
 mod test_expr;
 mod test_fn_decl;

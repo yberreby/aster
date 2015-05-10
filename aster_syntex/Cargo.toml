@@ -1,7 +1,10 @@
 [package]
-name = "aster_syntax"
+name = "aster_syntex"
 version = "0.2.2"
 authors = ["Erick Tryzelaar <erick.tryzelaar@gmail.com>"]
 license = "MIT/Apache-2.0"
 description = "A libsyntax ast builder"
 repository = "https://github.com/erickt/rust-aster"
+
+[dependencies]
+syntex_syntax = "*"

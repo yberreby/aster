@@ -1,7 +1,3 @@
-#![feature(rustc_private)]
-
-extern crate syntax;
-
 pub mod attr;
 pub mod block;
 pub mod expr;
