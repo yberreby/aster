@@ -1,6 +1,6 @@
 #![feature(rustc_private)]
 
-extern crate aster;
+extern crate aster_syntax as aster;
 extern crate syntax;
 
 mod test_attr;
