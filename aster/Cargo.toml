@@ -1,0 +1,15 @@
+[package]
+name = "aster"
+version = "0.2.2"
+authors = ["Erick Tryzelaar <erick.tryzelaar@gmail.com>"]
+license = "MIT/Apache-2.0"
+description = "A libsyntax ast builder"
+repository = "https://github.com/erickt/rust-aster"
+
+[features]
+default = ["aster_syntex"]
+nightly = ["aster_syntax"]
+
+[dependencies]
+aster_syntax = { path = "../aster_syntax", optional = true }
+aster_syntex = { path = "../aster_syntex", optional = true }
